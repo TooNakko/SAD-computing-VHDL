@@ -49,10 +49,10 @@ begin
     comp_gt_out <= '1' when x_out > y_out else '0';
     mux_1_out   <= x_out when comp_gt_out = '1' else y_out;
     mux_2_out   <= x_out when comp_gt_out = '0' else y_out;
-    cnt_eq_size <= '1' when (to_integer(unsigned(addr)) = matrix_size) else '0';
+    cnt_eq_size <= '1' when (to_integer(unsigned(addr)) = matrix_size - 1) else '0';
     sub_mux12_out <= mux_1_out - mux_2_out;
     --sub_mux12_out <= x_out - y_out when (x_out > y_out) else y_out - x_out;
     z_in        <= z_out + sub_mux12_out when (z_check = '1') else (others => '0');
-    SAD_o       <= z_out;
+    SAD_o       <= addr;
     debug_sig   <= rst_count;
 end rtl; 
