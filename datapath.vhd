@@ -53,6 +53,6 @@ begin
     sub_mux12_out <= mux_1_out - mux_2_out;
     --sub_mux12_out <= x_out - y_out when (x_out > y_out) else y_out - x_out;
     z_in        <= z_out + sub_mux12_out when (z_check = '1') else (others => '0');
-    SAD_o       <= addr;
-    debug_sig   <= calc_en;
+    SAD_o       <= z_out;
+    debug_sig   <= rst_count;
 end rtl; 

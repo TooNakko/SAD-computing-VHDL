@@ -26,13 +26,13 @@ end computeSAD;
 
 architecture rtl of computeSAD is
 
-signal  rst_clk, r_en_x, r_en_y, calc_en, count_eq_size, done: std_logic;
-signal  rst_count, w_en_z, r_en_z, z_check: std_logic;
+signal  rst_count, r_en_x, r_en_y, calc_en, count_eq_size, done: std_logic;
+signal  w_en_z, r_en_z, z_check: std_logic;
 signal  y_mux_dff, y_dff_out: std_logic;
 
 
 begin
-    C   :   controller  port map (clk, rst, start, rst_clk, r_en_x, r_en_y,w_en_z, r_en_z, calc_en, count_eq_size, z_check,done);
+    C   :   controller  port map (clk, rst, start, rst_count, r_en_x, r_en_y,w_en_z, r_en_z, calc_en, count_eq_size, z_check,done);
     D   :   datapath    port map (clk, rst, rst_count, start, calc_en, x_in, y_in, w_en_x, r_en_x, w_en_y, r_en_y, w_en_z, r_en_z, count_eq_size, z_check,SAD_o,debug_sig);
 
 end rtl;

@@ -37,6 +37,6 @@ begin
     end process;
 
     -- Read operation (always combinational)
-    data_out <= ram(to_integer(unsigned(addr))) when r_en = '1'; 
+    data_out <= ram(to_integer(unsigned(addr))) when r_en = '1' else (others => 'Z'); 
 end rtl;
 

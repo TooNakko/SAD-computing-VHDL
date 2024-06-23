@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity counter is
     generic(
-        data_width  :   integer := 16
+        data_width  :   	integer := 16
     );
     port(
     	clk         :	in  std_logic;

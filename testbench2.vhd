@@ -26,9 +26,9 @@ architecture tb of testbench2 is
         clock_sig:
             process 
                 begin  
-                    clk <= '1';
-                    wait for 1 ns;
                     clk <= '0';
+                    wait for 1 ns;
+                    clk <= '1';
                     wait for 1 ns;
             end process;
         cuminside:
