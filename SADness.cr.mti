@@ -1,0 +1,102 @@
+C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd {1 {vcom -work work -2002 -explicit -vopt {C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\datapath.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:28 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\datapath.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package SADlibrary
+-- Compiling entity datapath
+-- Compiling architecture rtl of datapath
+End time: 12:30:28 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:27 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity counter
+-- Compiling architecture c of counter
+End time: 12:30:27 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench.vhd {1 {vcom -work work -2002 -explicit -vopt {C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\testbench.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:28 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\testbench.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package SADlibrary
+-- Compiling entity testbench
+-- Compiling architecture tb of testbench
+End time: 12:30:28 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd {1 {vcom -work work -2002 -explicit -vopt {C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\controller.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:27 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\controller.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package SADlibrary
+-- Compiling entity controller
+-- Compiling architecture rtl of controller
+End time: 12:30:27 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/computeSAD.vhd {1 {vcom -work work -2002 -explicit -vopt {C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\computeSAD.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:27 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\computeSAD.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package SADlibrary
+-- Compiling entity computeSAD
+-- Compiling architecture rtl of computeSAD
+End time: 12:30:27 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd {1 {vcom -work work -2002 -explicit -vopt {C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\SADlibrary.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:28 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\SADlibrary.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package SADlibrary
+End time: 12:30:28 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd {1 {vcom -work work -2002 -explicit -vopt {C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\ArrayIn.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:30:27 on Jun 23,2024
+vcom -reportprogress 300 -work work -2002 -explicit -vopt C:\Users\anhki\OneDrive\Documents\_studi\3.2\thiet_ke_so\SADness\ArrayIn.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture rtl of memory
+End time: 12:30:27 on Jun 23,2024, Elapsed time: 0:00:00
+
+} {} {}}

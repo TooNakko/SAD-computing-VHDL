@@ -1,0 +1,82 @@
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use work.SADLibrary.all;
+
+
+entity controller is
+    generic(
+        data_width: integer := 16
+        --matrix_size: integer := 16
+    );
+    port(
+        clk             :       in  std_logic;
+        rst             :       in  std_logic;
+        start           :       in  std_logic;
+        rst_count       :       out std_logic;
+        r_en_x          :       out std_logic;
+        r_en_y          :       out std_logic;
+        w_en_z          :       out std_logic;
+        r_en_z          :       out std_logic;
+        calc_en         :       out std_logic;
+        count_eq_size   :       in  std_logic;
+        z_check         :       out std_logic;
+        done            :       out std_logic
+
+    );
+end controller;
+
+
+architecture rtl of controller is
+
+TYPE stage_level IS (s1, s2, s3, s4, s5, s6, s7, s8);
+SIGNAL stage  : stage_level;
+
+
+begin
+    process(clk, rst) is
+        begin
+            if (rst = '1') then
+                stage <= s1;
+            elsif ( clk'event and clk = '1') then
+                case stage is
+                    when s1 =>
+                        stage <= s2;
+                    when s2 =>
+                        if (start = '1') then
+                            stage <= s3;                        
+                        else
+                            stage <= s2;
+                        end if;
+                    when s3 =>
+                        stage <= s4;
+                    when s4 =>
+                        stage <=s5;
+                    when s5 =>
+                        stage <= s6;
+                    when s6 =>
+                        stage <=s7;
+                    when s7 =>
+                        if (count_eq_size = '1') then
+                            stage <= s8;
+                        else
+                            stage <= s4;
+                        end if;
+                    when s8 =>
+                        stage <= s8;
+                    end case;
+                end if;
+    end process;
+-- lmao
+z_check <= '0' when stage = s1 else '1';
+rst_count <= '1' when (stage = s1 or stage = s3) else '0';
+r_en_x <= '1' when stage = s4 else '0';
+r_en_y <= '1' when stage = s4 else '0';
+w_en_z <= '1' when (stage = s5 or stage = s1) else '0';
+r_en_z <= '1' when (stage = s5 or stage = s1) else '0';
+calc_en <= '1' when stage = s6 else '0';
+done <= '1' when stage = s8 else '0';
+
+   
+end rtl;
