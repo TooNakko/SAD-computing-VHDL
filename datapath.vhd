@@ -9,7 +9,7 @@ use work.SadLibrary.all;
 entity datapath is
     generic(
         data_width  : integer := 16;  
-        matrix_size : integer := 16
+        matrix_size : std_logic_vector(16 - 1 downto 0) := x"0010"
     );
     port(
         clk         :       in  std_logic;
@@ -27,8 +27,7 @@ entity datapath is
         r_en_z      :       in  std_logic;
         cnt_eq_size :       out std_logic;
         z_check     :       in  std_logic;
-        SAD_o       :       out std_logic_vector(data_width - 1 downto 0);
-        debug_sig   :       out std_logic
+        SAD_o       :       out std_logic_vector(data_width - 1 downto 0)
     );
 end datapath;
 
@@ -46,13 +45,12 @@ begin
     TheCounter  :   counter port map    (clk, rst_count, en_count, addr);
     
     en_count    <= calc_en when start = '1' else w_en_x;
-    comp_gt_out <= '1' when x_out > y_out else '0';
+    comp_gt_out <= '1' when signed(x_out) > signed(y_out) else '0';
     mux_1_out   <= x_out when comp_gt_out = '1' else y_out;
     mux_2_out   <= x_out when comp_gt_out = '0' else y_out;
-    cnt_eq_size <= '1' when (to_integer(unsigned(addr)) = matrix_size - 1) else '0';
+    cnt_eq_size <= '1' when addr = matrix_size else '0';
     sub_mux12_out <= mux_1_out - mux_2_out;
     --sub_mux12_out <= x_out - y_out when (x_out > y_out) else y_out - x_out;
     z_in        <= z_out + sub_mux12_out when (z_check = '1') else (others => '0');
-    SAD_o       <= addr;
-    debug_sig   <= rst_count;
+    SAD_o       <= z_out;
 end rtl; 

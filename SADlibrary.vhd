@@ -37,8 +37,7 @@ package SADlibrary is
     component datapath is
     generic(
         data_width  :   integer := 16;
-        matrix_size : integer := 16
-
+        matrix_size :   std_logic_vector(16 - 1 downto 0) := x"0010"
     );
     port(
         clk         :   in  std_logic;
@@ -56,8 +55,7 @@ package SADlibrary is
         r_en_z      :   in  std_logic;
         cnt_eq_size :   out std_logic;
         z_check     :   in std_logic;
-        SAD_o       :   out std_logic_vector(data_width - 1 downto 0);
-        debug_sig   :   out std_logic
+        SAD_o       :   out std_logic_vector(data_width - 1 downto 0)
     );
     end component;
 
@@ -66,7 +64,6 @@ package SADlibrary is
     component controller is
     generic(
         data_width      :   integer := 16
-        --matrix_size     :   integer := 16
     );
     port(
         clk             :       in  std_logic;
@@ -89,7 +86,7 @@ package SADlibrary is
     component computeSAD is
     generic(
         data_width  :   integer     := 16;
-        matrix_size :   integer     := 16
+        matrix_size :   std_logic_vector(16 - 1 downto 0) := x"0010"
     );
     port(
         clk     :       in  std_logic;
@@ -100,7 +97,7 @@ package SADlibrary is
         x_in    :       in  std_logic_vector(data_width-1 downto 0);
         y_in    :       in  std_logic_vector(data_width-1 downto 0);
         SAD_o   :       out std_logic_vector(data_width-1 downto 0);
-        debug_sig:      out std_logic
+        done    :       out std_logic
     );
     end component;
 
