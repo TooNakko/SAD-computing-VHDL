@@ -2,20 +2,20 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.std_logic_unsigned.all;
 use IEEE.numeric_std.all;
--- Define memory size and data width
+
 
 entity memory is
     generic (
-      data_width : integer := 16
-    );
-    port (
-      clk       : in std_logic;
-      rst       : in std_logic;
-      w_en      : in std_logic;  
-      r_en      : in std_logic;  
-      addr      : in std_logic_vector(data_width - 1 downto 0); 
-      data_in   : in std_logic_vector(data_width-1 downto 0); 
-      data_out  : out std_logic_vector(data_width-1 downto 0) 
+      data_width    : integer := 16
+    );  
+    port (  
+      clk           : in std_logic;
+      rst           : in std_logic;
+      w_en          : in std_logic;  
+      r_en          : in std_logic;  
+      addr          : in std_logic_vector(data_width - 1 downto 0); 
+      data_in       : in std_logic_vector(data_width-1 downto 0); 
+      data_out      : out std_logic_vector(data_width-1 downto 0) 
     );
 end entity;
 

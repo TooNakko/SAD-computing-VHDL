@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity counter is
     generic(
-        data_width  :   	integer := 16
+        data_width  :  	integer := 16
     );
     port(
     	clk         :	in  std_logic;
@@ -21,7 +21,6 @@ architecture c of counter is
 	begin
 		process(clk, rst_count, en_count) is
 			begin
-
 			if clk'event and clk = '1' then
 			  	if rst_count = '1' then
 					counter_up <= x"0000";

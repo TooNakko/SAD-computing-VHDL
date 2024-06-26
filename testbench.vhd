@@ -13,7 +13,7 @@ end testbench;
 
 architecture tb of testbench is
 
-    constant data_width                                 : integer := 16;
+    constant data_width                                 : integer                                   := 16;
     constant matrix_size                                : std_logic_vector(data_width - 1 downto 0) := x"0010";
     signal clk, rst, start, w_en_x, w_en_y, done        : std_logic;
     signal x_in, y_in, SAD_o                            : std_logic_vector(data_width - 1 downto 0);
@@ -39,7 +39,7 @@ architecture tb of testbench is
                     rst <= '1';
                     wait for 4 ns;
                     rst <= '0';
-                    wait;
+                    wait for 463 ns;
             end process;
         
         write_enable_x:
@@ -320,6 +320,7 @@ architecture tb of testbench is
         compute:
             process
                 begin
+                    -- TEST 1
                     start <= '0';
                     wait for 5 ns;
                     x_in <= x"F4F3";
@@ -372,9 +373,9 @@ architecture tb of testbench is
                     wait for 2 ns;
                     start <= '1';
                     wait for 400 ns;
+                    -- TEST 2
                     start <= '0';
                     wait for 5 ns;
-                    -- TEST 2
                     x_in <= x"FFF3";
                     y_in <= x"00AA";
                     wait for 4 ns;
@@ -415,7 +416,7 @@ architecture tb of testbench is
                     y_in <= x"FEE0";
                     wait for 4 ns;
                     x_in <= x"FFEF";
-                    y_in <= x"0020";
+                    y_in <= x"FFFE";
                     wait for 4 ns;
                     x_in <= x"0A12";
                     y_in <= x"0007";

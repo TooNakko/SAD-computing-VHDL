@@ -20,17 +20,15 @@ entity controller is
         r_en_z          :       out std_logic;
         calc_en         :       out std_logic;
         count_eq_size   :       in  std_logic;
-        z_check         :       out std_logic;
         done            :       out std_logic
-
     );
 end controller;
 
 
 architecture rtl of controller is
 
-TYPE stage_level IS (s1, s2, s3, s4, s5, s6, s7, s8, s9, s10);
-SIGNAL stage  : stage_level;
+type    stage_level is (s1, s2, s3, s4, s5, s6, s7, s8, s9, s10);
+signal  stage           :       stage_level;
 
 
 begin
@@ -72,18 +70,17 @@ begin
                         else
                             stage <= s10;
                         end if;
-                    end case;
-                end if;
+                end case;
+            end if;
     end process;
--- lmao
-z_check <= '0' when stage = s1 else '1';
-rst_count <= '1' when (stage = s1 or stage = s3) else '0';
-r_en_x <= '1' when stage = s4 else '0';
-r_en_y <= '1' when stage = s4 else '0';
-w_en_z <= '1' when (stage = s5 or stage = s1) else '0';
-r_en_z <= '1' when (stage = s6 or stage = s1) else '0';
-calc_en <= '1' when stage = s6 else '0';
-done <= '1' when stage = s9 else '0';
+
+rst_count   <= '1' when (stage = s1 or stage = s3) else '0';
+r_en_x      <= '1' when stage = s4 else '0';
+r_en_y      <= '1' when stage = s4 else '0';
+w_en_z      <= '1' when stage = s5 else '0';
+r_en_z      <= '1' when (stage = s6 or stage = s1) else '0';
+calc_en     <= '1' when stage = s6 else '0';
+done        <= '1' when stage = s9 else '0';
 
    
 end rtl;

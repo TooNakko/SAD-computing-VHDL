@@ -7,8 +7,8 @@ use work.SADLibrary.all;
 
 entity computeSAD is
     generic(
-        data_width  : integer := 16;
-        matrix_size : std_logic_vector(16 - 1 downto 0) := x"0010"
+        data_width  :       integer := 16;
+        matrix_size :       std_logic_vector(16 - 1 downto 0) := x"0010"
     );
     port(
         clk         :       in  std_logic;
@@ -27,12 +27,12 @@ end computeSAD;
 architecture rtl of computeSAD is
 
 signal  rst_count, r_en_x, r_en_y, calc_en, count_eq_size: std_logic;
-signal  w_en_z, r_en_z, z_check: std_logic;
+signal  w_en_z, r_en_z: std_logic;
 signal  y_mux_dff, y_dff_out: std_logic;
 
 
 begin
-    C   :   controller  port map (clk, rst, start, rst_count, r_en_x, r_en_y,w_en_z, r_en_z, calc_en, count_eq_size, z_check,done);
-    D   :   datapath    port map (clk, rst, rst_count, start, calc_en, x_in, y_in, w_en_x, r_en_x, w_en_y, r_en_y, w_en_z, r_en_z, count_eq_size, z_check,SAD_o);
+    C   :   controller  port map (clk, rst, start, rst_count, r_en_x, r_en_y,w_en_z, r_en_z, calc_en, count_eq_size,done);
+    D   :   datapath    port map (clk, rst, rst_count, start, calc_en, x_in, y_in, w_en_x, r_en_x, w_en_y, r_en_y, w_en_z, r_en_z, count_eq_size,SAD_o);
 
 end rtl;

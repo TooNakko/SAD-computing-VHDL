@@ -10,26 +10,26 @@ z2
 cModel Technology
 Z0 dC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/PJ_FINALL
 Ecomputesad
-Z1 w1719163888
+Z1 w1719245812
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z3 DPx4 work 10 sadlibrary 0 22 P1e;o:@h80GKKFLgVDIUg1
+Z3 DPx4 work 10 sadlibrary 0 22 <P^j:He2iAm2^?[^MGX[T0
 Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 978
+!i122 1048
 Z8 dC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness
 Z9 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/computeSAD.vhd
 Z10 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/computeSAD.vhd
 l0
 L8 1
-V<5c^C6O>4CEjjAUJg5RjV1
-!s100 >iGGXO5fL_B@oT_9`T2J_1
+Vf<nYz_TUc`3KSMBf@zz]I3
+!s100 DmBnKB>o[?1I[1;MJdHjn3
 Z11 OL;C;2020.4;71
 32
-Z12 !s110 1719208625
+Z12 !s110 1719306792
 !i10b 1
-Z13 !s108 1719208625.000000
+Z13 !s108 1719306791.000000
 Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/computeSAD.vhd|
 Z15 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/computeSAD.vhd|
 !i113 0
@@ -42,12 +42,12 @@ R4
 R5
 R6
 R7
-DEx4 work 10 computesad 0 22 <5c^C6O>4CEjjAUJg5RjV1
-!i122 978
+DEx4 work 10 computesad 0 22 f<nYz_TUc`3KSMBf@zz]I3
+!i122 1048
 l34
 L27 12
-V:Na31;YJPG@X?m9=1?f@V2
-!s100 Gd0_Gbmg0[P4W>4BQhgSL1
+VNU:a@:Kl:D7Z8Sfd^MEPQ1
+!s100 bdlm`J@ehoCX1EN5WC>0m1
 R11
 32
 R12
@@ -59,28 +59,28 @@ R15
 R16
 R17
 Econtroller
-Z18 w1719208603
+Z18 w1719306192
 R2
 R3
 R4
 R5
 R6
 R7
-!i122 982
+!i122 1047
 R8
 Z19 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd
 Z20 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd
 l0
 L8 1
-VEcPO>71gAYAV<hV_ceD@=0
-!s100 <[IaEI<gedM=5=W[z5WkJ3
+VW[?h2B>@a;J=jEbj?`JjG1
+!s100 P?Eg<?<j7GMLX02[`JZe70
 R11
 32
-Z21 !s110 1719208626
+Z21 !s110 1719306791
 !i10b 1
-Z22 !s108 1719208626.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd|
-Z24 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd|
+R13
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd|
+Z23 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/controller.vhd|
 !i113 0
 R16
 R17
@@ -91,44 +91,44 @@ R4
 R5
 R6
 R7
-DEx4 work 10 controller 0 22 EcPO>71gAYAV<hV_ceD@=0
-!i122 982
-l36
-L30 60
-VFATE@_IB]J_jgz?bPL1`n1
-!s100 4423@7K;3]bRmT9k_F=`d1
+DEx4 work 10 controller 0 22 W[?h2B>@a;J=jEbj?`JjG1
+!i122 1047
+l34
+L28 59
+V<8dUA<YOO2@08Pa9P7TXE2
+!s100 XR[2hmeUSL=]F:1Oa_nV80
 R11
 32
 R21
 !i10b 1
+R13
 R22
 R23
-R24
 !i113 0
 R16
 R17
 Ecounter
-Z25 w1719151959
+Z24 w1719245895
 R4
 R5
 R2
 R6
 R7
-!i122 975
+!i122 1042
 R8
-Z26 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd
-Z27 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd
+Z25 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd
+Z26 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd
 l0
 L6 1
-VKKiKS]f_FNkRcK`I3gIYB0
-!s100 nVSB[Q`^0>]3B58HCD[:W2
+VnfWVRdCZMk3h9P6Cb[5B]3
+!s100 zch]N70;ReP_N85zbbUE42
 R11
 32
-R12
+R21
 !i10b 1
 R13
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd|
-Z29 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd|
+Z28 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/Counter.vhd|
 !i113 0
 R16
 R17
@@ -138,45 +138,45 @@ R5
 R2
 R6
 R7
-DEx4 work 7 counter 0 22 KKiKS]f_FNkRcK`I3gIYB0
-!i122 975
+DEx4 work 7 counter 0 22 nfWVRdCZMk3h9P6Cb[5B]3
+!i122 1042
 l21
-L19 22
-VkM2NE52JUP2YH^g@1G?2B2
-!s100 hMCk0SUHaBXf]3M5oFi`60
+L19 21
+VBT_Tgk`nPOXY6ljOQ<LJe3
+!s100 oCZH^7DCn5R1Q]z]PHzaQ2
 R11
 32
-R12
+R21
 !i10b 1
 R13
+R27
 R28
-R29
 !i113 0
 R16
 R17
 Edatapath
-Z30 w1719208608
+Z29 w1719245659
 R3
 R4
 R5
 R2
 R6
 R7
-!i122 979
+!i122 1044
 R8
-Z31 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd
-Z32 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd
+Z30 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd
+Z31 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd
 l0
 L9 1
-Vgo]D`Zci[P[?Qd26JJ1`S3
-!s100 8`hL2Z`Mnm3=WEk^LH^OG2
+VmdmOS6;YT]=FT]7506V802
+!s100 :E9d2`U6YhE0VV50WV5_T3
 R11
 32
-R12
+R21
 !i10b 1
 R13
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd|
-Z34 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd|
+Z33 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/datapath.vhd|
 !i113 0
 R16
 R17
@@ -187,24 +187,24 @@ R5
 R2
 R6
 R7
-DEx4 work 8 datapath 0 22 go]D`Zci[P[?Qd26JJ1`S3
-!i122 979
-l41
-L35 22
-VjP0^`Y9ELa3E=4QzG<J:i0
-!s100 ROMdJf4AmFSbijz6^a9I30
+DEx4 work 8 datapath 0 22 mdmOS6;YT]=FT]7506V802
+!i122 1044
+l40
+L34 22
+VRQ2jb3_c9=h4^?WO_^g>80
+!s100 XePGZ8FYoPCT=g?_1`Tj^0
 R11
 32
-R12
+R21
 !i10b 1
 R13
+R32
 R33
-R34
 !i113 0
 R16
 R17
 Edpmem
-Z35 w1719035811
+Z34 w1719035811
 R4
 R5
 R2
@@ -212,19 +212,19 @@ R6
 R7
 !i122 58
 R8
+R25
 R26
-R27
 l0
 L8 1
 VZb9eR`_fnkab?Go>ZBBQM3
 !s100 ?K>U?R>UCO0YUXSM3CKNJ3
 R11
 32
-Z36 !s110 1719040859
+Z35 !s110 1719040859
 !i10b 1
-Z37 !s108 1719040859.000000
+Z36 !s108 1719040859.000000
+R27
 R28
-R29
 !i113 0
 R16
 R17
@@ -242,11 +242,11 @@ VW@UUl?=EG8X35FlBPcZ3K1
 !s100 dM2YG;k@g;GGXO1P]0b7c3
 R11
 32
-R36
+R35
 !i10b 1
-R37
+R36
+R27
 R28
-R29
 !i113 0
 R16
 R17
@@ -259,8 +259,8 @@ R7
 !i122 0
 w1719036483
 R8
-Z38 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd
-Z39 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd
+Z37 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd
+Z38 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd
 l0
 L8 1
 Vb8T18:zNR^QSfU[VWP?]z3
@@ -271,32 +271,40 @@ R11
 !i10b 1
 !s108 1719036519.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd|
-Z40 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd|
+Z39 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd|
 !i113 0
 R16
 R17
+Tlmao_opt
+!s110 1719306796
+VcaJYl^dUUfi^_bWaa?KEj3
+Z40 04 9 2 work testbench tb 1
+Z41 o+acc
+Z42 tCvgOpt 0
+nlmao_opt
+Z43 OL;O;2020.4;71
 Ememory
-Z41 w1719151473
+Z44 w1719306096
 R2
 R4
 R5
 R6
 R7
-!i122 976
+!i122 1043
 R8
-Z42 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd
-Z43 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd
+Z45 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd
+Z46 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd
 l0
 L7 1
-V5OSXRTze[?lnhTbaQUY0D0
-!s100 =J]@UMilWHG[cfzU;8b[>1
+VQC`Smzo_:eA`YPJh=>hBL0
+!s100 e1am:NC@WI[3b?eHBCL2>3
 R11
 32
-R12
+R21
 !i10b 1
 R13
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd|
-Z45 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd|
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd|
+Z48 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/ArrayIn.vhd|
 !i113 0
 R16
 R17
@@ -306,19 +314,19 @@ R4
 R5
 R6
 R7
-DEx4 work 6 memory 0 22 5OSXRTze[?lnhTbaQUY0D0
-!i122 976
+DEx4 work 6 memory 0 22 QC`Smzo_:eA`YPJh=>hBL0
+!i122 1043
 l25
 L22 17
 Vf:4`l28K=R5]HZ1k=XPL?1
 !s100 2]]ATG9niDe0O;Oo4Xbk[1
 R11
 32
-R12
+R21
 !i10b 1
 R13
-R44
-R45
+R47
+R48
 !i113 0
 R16
 R17
@@ -328,22 +336,22 @@ R5
 R2
 R6
 R7
-!i122 980
-w1719163985
+!i122 1045
+w1719245753
 R8
+R37
 R38
-R39
 l0
 L8 1
-VP1e;o:@h80GKKFLgVDIUg1
-!s100 DiFX^Bkih^<4SjbH:zbcC0
+V<P^j:He2iAm2^?[^MGX[T0
+!s100 jQ`C>aOQ<:AfW^8z]A=@c1
 R11
 32
-R12
+R21
 !i10b 1
 R13
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/SADlibrary.vhd|
-R40
+R39
 !i113 0
 R16
 R17
@@ -351,28 +359,29 @@ Ttb2_opt
 !s110 1719127513
 Vk8J6LeLaa:_z^_R@JjaIk1
 04 10 2 work testbench2 tb 1
-Z46 o+acc
-Z47 tCvgOpt 0
+R41
+R42
 ntb2_opt
-Z48 OL;O;2020.4;71
+R43
 R0
 Ttb_opt
-!s110 1719208632
-VA`OQE>Zh<0JhzEkGgOcIW3
-04 9 2 work testbench tb 1
-R46
-R47
+!s110 1719232681
+V44CjmS8:6><z?7YgOF6?Y3
+R40
+R41
+R42
 ntb_opt
-R48
+R43
+R0
 Etestbench
-Z49 w1719165284
+Z49 w1719306779
 R3
 R2
 R4
 R5
 R6
 R7
-!i122 981
+!i122 1046
 R8
 Z50 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench.vhd
 Z51 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench.vhd
@@ -382,7 +391,7 @@ V[Qem<FE_UmS571Q;dk1^j3
 !s100 <dOn=RDMf8zl[ZVf9aQJ?3
 R11
 32
-R12
+R21
 !i10b 1
 R13
 Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench.vhd|
@@ -398,11 +407,11 @@ R5
 R6
 R7
 DEx4 work 9 testbench 0 22 [Qem<FE_UmS571Q;dk1^j3
-!i122 981
+!i122 1046
 l21
-L14 419
-V:o1Xnh:zPVEo9QQToZ]ke2
-!s100 Kb^:^oUKOg=FKWVED8CUC0
+L14 420
+V]ERbRaLPe7EMW04Ezb_eA2
+!s100 OG;go9;[Y`R9YIPH:jGHj3
 R11
 32
 R21
@@ -415,50 +424,50 @@ R16
 R17
 Etestbench2
 Z54 w1719126897
-R3
+Z55 DPx4 work 10 sadlibrary 0 22 6a^JdBHdRXCHZ_A1A79GX2
 R2
 R4
 R5
 R6
 R7
-!i122 977
+!i122 994
 R8
-Z55 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd
-Z56 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd
+Z56 8C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd
+Z57 FC:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd
 l0
 L10 1
 V4TfHH?<g]JYjFPAC;mjnE0
 !s100 <ORQWbBOTeG`^F;JMaOYh2
 R11
 32
-R12
+Z58 !s110 1719209323
 !i10b 1
-R13
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd|
-Z58 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd|
+Z59 !s108 1719209323.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd|
+Z61 !s107 C:/Users/anhki/OneDrive/Documents/_studi/3.2/thiet_ke_so/SADness/testbench2.vhd|
 !i113 0
 R16
 R17
 Atb
-R3
+R55
 R2
 R4
 R5
 R6
 R7
 DEx4 work 10 testbench2 0 22 4TfHH?<g]JYjFPAC;mjnE0
-!i122 977
+!i122 994
 l22
 L15 40
 V=?gPf9F<VD_X;kH>WgCZh3
 !s100 n01kh82I`1b>FUoPcZe8m2
 R11
 32
-R12
-!i10b 1
-R13
-R57
 R58
+!i10b 1
+R59
+R60
+R61
 !i113 0
 R16
 R17
